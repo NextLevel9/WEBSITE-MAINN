@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* Navbar */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#333;
+}
+
+/* Hero */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(120deg,#6366f1,#06b6d4);
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:#333;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* Services */
+
+.services{
+padding:70px 10%;
+text-align:center;
+}
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.service-box{
+background:white;
+padding:25px;
+width:220px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* About */
+
+.about{
+padding:70px 10%;
+text-align:center;
+background:#fff;
+}
+
+/* Testimonials */
+
+.testimonials{
+padding:70px 10%;
+text-align:center;
+background:#eef2ff;
+}
+
+.testimonial{
+margin-top:20px;
+}
+
+/* Contact */
+
+.contact{
+padding:70px 10%;
+text-align:center;
+}
+
+.contact input,
+.contact textarea{
+width:60%;
+padding:10px;
+margin:10px;
+}
+
+.contact button{
+padding:10px 20px;
+background:#6366f1;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
